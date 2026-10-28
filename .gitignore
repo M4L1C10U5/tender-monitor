@@ -1,0 +1,16 @@
+# secrets - never upload
+secrets.env
+.env
+# data and output that stay on this Mac
+*.db
+*.sqlite3
+tender_reports/
+*.docx
+*.pdf
+# Python / macOS
+__pycache__/
+*.pyc
+venv/
+.venv/
+.DS_Store
+.idea/
